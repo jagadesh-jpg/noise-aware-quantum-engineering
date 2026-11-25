@@ -289,3 +289,4 @@ The repository includes a comprehensive pytest suite verifying pipeline componen
 - `test_hardware_metadata_schema`: Validates non-secret metadata serialization.
 
 **Test Status:** `8 passed in ~5s` (100% pass rate).
+"# noise-aware-quantum-engineering" 
