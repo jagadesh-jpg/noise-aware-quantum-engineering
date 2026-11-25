@@ -1,0 +1,53 @@
+{
+  "job_id": "db3lvug4qg6s73c107p0",
+  "backend": "ibm_fez",
+  "circuit": "non_local_bell_3q",
+  "shots": 1024,
+  "transpile_info": {
+    "backend_name": "ibm_fez",
+    "logical_qubits": 3,
+    "physical_qubits_backend": 156,
+    "logical_depth": 3,
+    "transpiled_depth": 8,
+    "logical_ops": {
+      "measure": 3,
+      "h": 1,
+      "cx": 1,
+      "barrier": 1
+    },
+    "transpiled_ops": {
+      "rz": 6,
+      "sx": 3,
+      "measure": 3,
+      "cz": 1,
+      "barrier": 1
+    },
+    "one_qubit_gates_before": 1,
+    "one_qubit_gates_after": 9,
+    "two_qubit_gates_before": 1,
+    "two_qubit_gates_after": 1,
+    "swap_gates_inferred": 0,
+    "optimization_level": 1
+  },
+  "distributions": {
+    "reference": {
+      "101": 0.521484375,
+      "000": 0.478515625
+    },
+    "hardware_raw": {
+      "101": 0.4853515625,
+      "000": 0.494140625,
+      "001": 0.0068359375,
+      "100": 0.01171875,
+      "010": 0.0009765625,
+      "111": 0.0009765625
+    }
+  },
+  "metrics": {
+    "reference_fidelity": 1.0,
+    "hardware_raw_fidelity": 0.978831340271853,
+    "hardware_raw_infidelity": 0.021168659728146966,
+    "hardware_raw_tvd": 0.0361328125,
+    "hardware_raw_hellinger_dist": 0.10315495488003082
+  }
+}
